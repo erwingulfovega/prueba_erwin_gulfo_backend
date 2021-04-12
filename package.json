@@ -17,8 +17,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start":  "node src/index.js",
+    "heroku-postbuild": "cd prueba_erwin_gulfo_frontend & npm install & npm run build"
   },
   "eslintConfig": {
     "extends": [
